@@ -1,0 +1,49 @@
+.top{
+    width: 100%;
+    height: 53px;
+    background-color: re;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.box{
+    width: 100%;
+    height: 100px;
+    margin-top: 53px;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    
+}
+
+.lap{
+   display: block;
+    
+    
+}
+
+@media(max-width: 900px){
+    .lap a{
+        display: none;
+    }
+}
+.phone{
+    display: none;
+    
+   
+}
+.phone a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+@media(max-width: 600px){
+    .phone{
+        display: block;
+    }
+}
